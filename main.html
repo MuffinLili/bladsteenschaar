@@ -1,0 +1,68 @@
+<html>
+
+<head>
+    <title>Blad steen schaar</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almendra+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="box">
+        <div class="header"> </div>
+        <div id="instructions" class="instructions">
+
+            <h1> Algemene spelregels </h1>
+
+            <p>✼ In dit duo spel speel je tegen een computer robot.</p>
+            <p>✼ Het spel bestaat uit meerdere ronden.</p>
+            <p>✼ Je moet kiezen tussen blad, steen of schaar.</p>
+            <p>✼ Je kan een ronde winnen als jouw keuze de robot overtreft. </p>
+            <p>✼ Blad wint van steen, steen wint van schaar en schaar wint van blad.</p>
+            <p>✼ Wie als eerst 3 ronden heeft gewonnen, wint het spel!</p>
+
+            <p class="ready"> Ben je klaar om te spelen? </p>
+        </div>
+
+
+        <div id="play" class="play">
+            <img id="blad" src="./blad.jpg" alt="">
+            <p></p>
+            <img id="steen" src="./steen.jpg" alt="">
+            <p></p>
+            <img id="schaar" src="./schaar.jpg" alt="">
+            <p></p>
+        </div>
+
+        <div id="results" class="results">
+
+            <div id="speler1" class="resultBox" >
+               <p  >Jij kiest:</p>
+               <div> <img id="playerResult" src="" alt="">
+                <p id="score1" ></p></div>
+            </div>
+
+            <div id="end" >
+
+            </div>
+
+            <div id="speler2" class="resultBox">
+                <p  >De robot kiest:</p>
+               <div><p id="score2" ></p>
+                <img id="computerResult" src="" alt=""></div>
+            
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

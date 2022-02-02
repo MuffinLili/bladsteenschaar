@@ -1,0 +1,153 @@
+html, body, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #cbffdc91;
+}
+
+.box {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.header {
+    background-image: url(https://bladsteenschaar.net/wp-content/uploads/2018/01/cropped-LOGO-1-2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 250px;
+    margin: 20px auto;
+}
+
+.instructions {
+    text-align: center;
+
+}
+
+.instructions h1 {
+    font-family: 'Almendra Display', cursive;
+    font-size: 34px;
+}
+
+.instructions p {
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 18px;
+}
+
+.ready {
+    padding: 20px;
+    text-align: center;
+}
+
+.play {
+    margin-top: 30px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.play img {
+    width: 200px;
+    height: 200px;
+    margin: 0 15px;
+    transition: 0.3s;
+}
+
+.play img:hover {
+    cursor: pointer;
+    box-shadow: 0 0 0 2px black;
+
+}
+
+.ready {
+    font-family: 'Almendra Display', cursive;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.results {
+    margin: 40px 70px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.results img {
+
+    width: 200px;
+    height: 200px;
+    transition: 0.3s;
+
+}
+
+.results img[src=""] {
+    display: none;
+}
+
+.resultBox {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 18px;
+
+
+}
+
+.resultBox p {
+    margin-bottom: 5px;
+    display: flex;
+}
+
+#end {
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#end button {
+    margin-top: 50px;
+    display: flex;
+    font-size: 18px;
+
+}
+
+#score1 {
+    flex-direction: row;
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 30px;
+    color: #3c557d;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    text-shadow: 1.5px 0.5px 3px #3c557d;
+}
+
+#score2 {
+    flex-direction: row;
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 30px;
+    color: #3c557d;
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    text-shadow: 2px 1.5px 3px #3c557d;
+}
+
+.resultBox div {
+    display: flex;
+}
+
+#speler1 {
+    align-items: flex-start;
+
+}
+
+#speler2 {
+    align-items: flex-end;
+}
